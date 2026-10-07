@@ -1,0 +1,56 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.handoff.ai/pricing
+sources:
+- https://www.handoff.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Flex
+published: true
+note: 'Payment fees listed: Credit Card Fees 3.35% (Flex) / 2.85% (Pro, Scale); ACH Fees 1% ($10 cap)
+  on all plans.'
+plan_count: 4
+currency: USD
+plans:
+- name: Flex
+  price_text: $119
+  price: 119
+  currency: USD
+  period: month
+  unit: per month, billed annually
+  included_quota: 50 AI usage credits p/mo, 1 custom pricing catalog, AI-generated proposals, Voice Transcription
+    To Estimate, mobile & desktop access, 2 users included; 7-day free trial (list price $149)
+- name: Pro
+  price_text: $239
+  price: 239
+  currency: USD
+  period: month
+  unit: per month, billed annually
+  included_quota: All Flex features plus unlimited AI usage credits, unlimited custom pricing catalogs,
+    client financing, AI site walkthroughs, 5 users included, Dedicated Success Coach onboarding, AI Project
+    Management Suite, Time Tracking; 12-month commitment (list price $299)
+- name: Scale
+  price_text: $719
+  price: 719
+  currency: USD
+  period: month
+  unit: per month, billed annually
+  included_quota: All Pro features plus AI Takeoffs up to 7,000 sqft, API and MCP Access, AI Subcontractor
+    Portal; 12-month commitment (list price $899)
+- name: Supplier Platform
+  price_text: Contact us for pricing
+  period: none
+  included_quota: AI takeoffs on contractors' plans, priced with your SKUs, delivered into your ERP, uptime
+    SLA
+rate_limit_statements:
+- 50 AI usage credits p/mo
+- Unlimited AI usage credits
