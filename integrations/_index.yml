@@ -15,6 +15,7 @@
   evidence: https://zapier.com/apps/gmail/integrations/handoff/255728411/send-emails-in-gmail-when-proposals-are-approved-in-handoff
   template: https://zapier.com/apps/gmail/integrations/handoff/255728411/send-emails-in-gmail-when-proposals-are-approved-in-handoff
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: handoff-create-new-handoff-contacts-when-new-clients-are-added-in-jobber
@@ -29,6 +30,7 @@
   evidence: https://zapier.com/apps/handoff/integrations/jobber/255729418/create-new-handoff-contacts-when-new-clients-are-added-in-jobber
   template: https://zapier.com/apps/handoff/integrations/jobber/255729418/create-new-handoff-contacts-when-new-clients-are-added-in-jobber
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: handoff-generate-and-estimate-new-handoff-projects-from-gravity-forms-submissions
@@ -43,6 +45,7 @@
   evidence: https://zapier.com/apps/gravity-forms/integrations/handoff/255729642/generate-and-estimate-new-handoff-projects-from-gravity-forms-submissions
   template: https://zapier.com/apps/gravity-forms/integrations/handoff/255729642/generate-and-estimate-new-handoff-projects-from-gravity-forms-submissions
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: handoff-create-handoff-projects-for-new-jobnimbus-leads
@@ -57,6 +60,7 @@
   evidence: https://zapier.com/apps/handoff/integrations/jobnimbus/255730022/create-handoff-projects-for-new-jobnimbus-leads
   template: https://zapier.com/apps/handoff/integrations/jobnimbus/255730022/create-handoff-projects-for-new-jobnimbus-leads
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: handoff-create-estimates-in-service-titan-when-new-estimates-are-approved-at-handoff
@@ -71,6 +75,7 @@
   evidence: https://zapier.com/apps/handoff/integrations/servicetitan/255730023/create-estimates-in-service-titan-when-new-estimates-are-approved-at-handoff
   template: https://zapier.com/apps/handoff/integrations/servicetitan/255730023/create-estimates-in-service-titan-when-new-estimates-are-approved-at-handoff
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: handoff-create-projects-and-generate-estimates-in-handoff-from-new-companycam-documents
@@ -85,6 +90,7 @@
   evidence: https://zapier.com/apps/companycam/integrations/handoff/255730026/create-projects-and-generate-estimates-in-handoff-from-new-companycam-documents
   template: https://zapier.com/apps/companycam/integrations/handoff/255730026/create-projects-and-generate-estimates-in-handoff-from-new-companycam-documents
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: handoff-create-handoff-projects-for-new-servicetitan-jobs
@@ -99,6 +105,7 @@
   evidence: https://zapier.com/apps/handoff/integrations/servicetitan/255730028/create-handoff-projects-for-new-servicetitan-jobs
   template: https://zapier.com/apps/handoff/integrations/servicetitan/255730028/create-handoff-projects-for-new-servicetitan-jobs
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: handoff-create-new-handoff-projects-with-documents-from-new-companycam-photos
@@ -113,288 +120,7 @@
   evidence: https://zapier.com/apps/companycam/integrations/handoff/255730954/create-new-handoff-projects-with-documents-from-new-companycam-photos
   template: https://zapier.com/apps/companycam/integrations/handoff/255730954/create-new-handoff-projects-with-documents-from-new-companycam-photos
   source: template
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-pipedrive
-  label: Pipedrive
-  partner: pipedrive
-  partner_name: Pipedrive
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/pipedrive
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-google-forms
-  label: Google Forms
-  partner: google-forms
-  partner_name: Google Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/google-forms
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-freshbooks
-  label: FreshBooks
-  partner: freshbooks
-  partner_name: FreshBooks
-  category: Accounting
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/freshbooks
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-mailchimp
-  label: Mailchimp
-  partner: mailchimp
-  partner_name: Mailchimp
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/mailchimp
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-keap
-  label: Keap
-  partner: keap
-  partner_name: Keap
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/keap
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-google-calendar
-  label: Google Calendar
-  partner: google-calendar
-  partner_name: Google Calendar
-  category: Calendar
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/google-calendar
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-wix
-  label: Wix
-  partner: wix
-  partner_name: Wix
-  category: Website Builders
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/wix
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-dropbox
-  label: Dropbox
-  partner: dropbox
-  partner_name: Dropbox
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/dropbox
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-google-sheets
-  label: Google Sheets
-  partner: google-sheets
-  partner_name: Google Sheets
-  category: Google
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/google-sheets
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-hubspot
-  label: HubSpot
-  partner: hubspot
-  partner_name: HubSpot
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/hubspot
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-constant-contact
-  label: Constant Contact
-  partner: constant-contact
-  partner_name: Constant Contact
-  category: Email Newsletters
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/constant-contact
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-basecamp
-  label: Basecamp
-  partner: basecamp
-  partner_name: Basecamp
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/basecamp
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-yelp-leads
-  label: Yelp Leads
-  partner: yelp
-  partner_name: Yelp Leads
-  category: Ads & Conversion
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/yelp-leads
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-slack
-  label: Slack
-  partner: slack
-  partner_name: Slack
-  category: Team Chat
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/slack
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-facebook-lead-ads
-  label: Facebook Lead Ads
-  partner: facebook-lead-ads
-  partner_name: Facebook Lead Ads
-  category: Ads & Conversion
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/facebook-lead-ads
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-plaud
-  label: Plaud
-  partner_name: Plaud
-  category: AI Assistants
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/plaud
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-anthropic-claude
-  label: Anthropic (Claude)
-  partner_name: Anthropic (Claude)
-  category: AI Models
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/anthropic-claude
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-human-in-the-loop
-  label: Human in the Loop
-  partner_name: Human in the Loop
-  category: AI Assistants
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/human-in-the-loop
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-jobtread
-  label: JobTread
-  partner_name: JobTread
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/jobtread
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-service-fusion
-  label: Service Fusion
-  partner: servicefusion
-  partner_name: Service Fusion
-  category: eCommerce
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/service-fusion
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-builder-prime
-  label: Builder Prime
-  partner: builder-prime
-  partner_name: Builder Prime
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/builder-prime
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-leap-crm
-  label: Leap CRM
-  partner_name: Leap CRM
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/leap-crm
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-magicplan
-  label: magicplan
-  partner_name: magicplan
-  category: Images & Design
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/magicplan
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: handoff-google-drive
-  label: Google Drive
-  partner: google-drive
-  partner_name: Google Drive
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/handoff/integrations/google-drive
-  source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: handoff-zapier
@@ -421,4 +147,311 @@
     beta: false
     builder: unknown (not in the directory record)
   status: not-a-workflow
+  arazzo: null
+- slug: handoff-pipedrive
+  label: Pipedrive
+  partner: pipedrive
+  partner_name: Pipedrive
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/pipedrive
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-google-forms
+  label: Google Forms
+  partner: google-forms
+  partner_name: Google Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/google-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-freshbooks
+  label: FreshBooks
+  partner: freshbooks
+  partner_name: FreshBooks
+  category: Accounting
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/freshbooks
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-google-calendar
+  label: Google Calendar
+  partner: google-calendar
+  partner_name: Google Calendar
+  category: Calendar
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/google-calendar
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-mailchimp
+  label: Mailchimp
+  partner: mailchimp
+  partner_name: Mailchimp
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/mailchimp
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-keap
+  label: Keap
+  partner: keap
+  partner_name: Keap
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/keap
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-dropbox
+  label: Dropbox
+  partner: dropbox
+  partner_name: Dropbox
+  category: File Management & Storage
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/dropbox
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-jobtread
+  label: JobTread
+  partner_name: JobTread
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/jobtread
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-google-sheets
+  label: Google Sheets
+  partner: google-sheets
+  partner_name: Google Sheets
+  category: Google
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/google-sheets
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-constant-contact
+  label: Constant Contact
+  partner: constant-contact
+  partner_name: Constant Contact
+  category: Email Newsletters
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/constant-contact
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-basecamp
+  label: Basecamp
+  partner: basecamp
+  partner_name: Basecamp
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/basecamp
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-yelp-leads
+  label: Yelp Leads
+  partner: yelp
+  partner_name: Yelp Leads
+  category: Ads & Conversion
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/yelp-leads
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-slack
+  label: Slack
+  partner: slack
+  partner_name: Slack
+  category: Team Chat
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/slack
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-facebook-lead-ads
+  label: Facebook Lead Ads
+  partner: facebook-lead-ads
+  partner_name: Facebook Lead Ads
+  category: Ads & Conversion
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/facebook-lead-ads
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-plaud
+  label: Plaud
+  partner_name: Plaud
+  category: AI Assistants
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/plaud
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-anthropic-claude
+  label: Anthropic (Claude)
+  partner: anthropic
+  partner_name: Anthropic (Claude)
+  category: AI Models
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/anthropic-claude
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-human-in-the-loop
+  label: Human in the Loop
+  partner_name: Human in the Loop
+  category: AI Assistants
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/human-in-the-loop
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-service-fusion
+  label: Service Fusion
+  partner: servicefusion
+  partner_name: Service Fusion
+  category: eCommerce
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/service-fusion
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-builder-prime
+  label: Builder Prime
+  partner: builder-prime
+  partner_name: Builder Prime
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/builder-prime
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-leap-crm
+  label: Leap CRM
+  partner_name: Leap CRM
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/leap-crm
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-magicplan
+  label: magicplan
+  partner_name: magicplan
+  category: Images & Design
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/magicplan
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-google-drive
+  label: Google Drive
+  partner: google-drive
+  partner_name: Google Drive
+  category: File Management & Storage
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/google-drive
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-hubspot
+  label: HubSpot
+  partner: hubspot
+  partner_name: HubSpot
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/hubspot
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: handoff-stripe
+  label: Stripe
+  partner: stripe
+  partner_name: Stripe
+  category: Payment Processing
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/handoff/integrations/stripe
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
   arazzo: null
